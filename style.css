@@ -1,6 +1,12 @@
-#top-section{
-    background: url(images/top.jpg);
+body{
+    background: #19202a;
+}
+
+#top-section 
+.bluredbg {
+    background-image: linear-gradient(45deg, rgba(25,32,42,1) 0%,rgba(25,32,42,0.99) 1%,rgba(125,185,232,0) 100%), url(images/top.jpg);
     background-size: cover;
     height: 100vh;
     width: 100%;
-}
+    filter: blur(50px);
+    }
