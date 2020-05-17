@@ -1,8 +1,14 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
 background: #19202a;
 }
 
 header {
+    z-index: 3;
+    padding: 15px;
     display: flex;
     width: 100%;
     justify-content: space-between;
@@ -21,10 +27,12 @@ nav {
     text-decoration: none;
     font-size: 1.2rem;
     font-weight: 300;
+    padding: 0 10px;
     }
 
 #top-section {
 position: relative;
+height: 100vh;
 }
 .bluredbg {
 background-image: linear-gradient(
