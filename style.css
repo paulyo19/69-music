@@ -91,6 +91,7 @@ p {
   font-size: 0.9rem;
   padding: 0 50px;
 }
+
 .logo-centered {
   width: 50%;
   display: flex;
@@ -99,26 +100,41 @@ p {
   padding: 0 50px;
 }
 
-#media {
-  padding: 10px 0px;
-
+.container2 {
+  max-width: 1400px;
+  margin: 0 auto;
 }
 
-.title{
-  background: black;
-  font-size: 1.1rem;
-  font-weight: 300;
-  text-transform: uppercase;
-  padding: 20px;
-  text-align: center;
-  width: 100%;
-  max-width: 500px;
-  margin: 0 auto;
-  color: white;
+#media {
+  padding: 100px 0px;
+}
+
+.title {
+    background: black;
+    font-size: 1.1rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    color: white;
 }
 
 .videos {
-  padding: 0 50px;
-  display: grid;
-  
+    padding: 80px 50px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 50px;
+}
+
+.video {
+  border-radius: 4px;
+  overflow: hidden;
+  height: 300px;
+}
+
+iframe {
+  height: 100%;
 }
