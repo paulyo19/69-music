@@ -99,7 +99,7 @@ p {
   padding: 0 50px;
 }
 
-.album {
+#media {
     background-image: url(images/Background.png);
     background-size: cover;
     height: 100vh;
