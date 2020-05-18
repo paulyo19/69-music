@@ -99,3 +99,26 @@ p {
   padding: 0 50px;
 }
 
+#media {
+  padding: 10px 0px;
+
+}
+
+.title{
+  background: black;
+  font-size: 1.1rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  color: white;
+}
+
+.videos {
+  padding: 0 50px;
+  display: grid;
+  
+}
