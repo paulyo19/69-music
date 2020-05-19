@@ -146,8 +146,8 @@ iframe {
 
 #music {  
  padding: 80px 0;
+background-image: url();
 }
-
 
 .info {
  width: 50%;
@@ -183,6 +183,7 @@ iframe {
    width: 400px;
   display: grid;
   grid-template-columns: 50% 50%;
+  margin-bottom: 80px;
 }
 
 li {
@@ -191,6 +192,12 @@ li {
   text-align: center;
   margin-bottom: 20px;
   list-style: none;
+}
+
+.logos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
 }
 
 img {
