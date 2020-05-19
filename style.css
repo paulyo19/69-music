@@ -156,6 +156,18 @@ iframe {
  width: 50%;
 }
 
+.title {
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.sub-title {
+  font-size: .8rem;
+  font-weight: 300;
+  text-align: center;
+}
+
 .album-cover {
  width: 50%;
  display: flex;
