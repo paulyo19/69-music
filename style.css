@@ -199,6 +199,7 @@ li {
   text-align: center;
   margin-bottom: 20px;
   list-style: none;
+  color: white;
 }
 
 .logos {
@@ -225,6 +226,39 @@ img {
   background-position: center center;
   filter: saturate(0%) contrast(150%);
 }
+
+.tour-dates {
+  background: black;
+
+}
+
+.title {
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1.8rem;
+  margin: 50px 0;
+}
+
+.dates {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.city {
+  font-weight: 700;
+}
+
+.location {
+  font-weight: 300;
+}
+
+.date {
+  font-weight: 500;
+  color: #f14848;
+}
+
+
 
 footer {
   background: #1b1b1b;
