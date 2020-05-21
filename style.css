@@ -217,6 +217,14 @@ img {
   z-index: 4;
 }
 
+.top-img{
+  background-image: url(images/group.png);
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  filter: saturate(0%) contrast(150%);
+}
 
 footer {
   background: #1b1b1b;
