@@ -12,16 +12,13 @@ header {
   display: flex;
   width: 100%;
   justify-content: space-between;
-  .logo {
-    width: 50px;
-    img {
-      width: 100%;
-    }
-  }
+ 
   nav {
     align-self: center;
   }
 }
+
+
 a {
   color: white;
   text-decoration: none;
@@ -258,8 +255,17 @@ img {
   color: #f14848;
 }
 
-
+.logo {
+  width: 150px;
+}
 
 footer {
-  background: #1b1b1b;
+  background: linear-gradient( 45deg,
+rgba(25, 32, 42, 1) 0%,
+rgba(25, 32, 42, 1) 1%,
+rgba(25, 32, 42, 1) 27%,
+rgba(25, 32, 42, 0.95) 31%,
+rgba(25, 32, 42, 0.66) 52%,
+rgba(128, 39, 206, 0.52) 62%,
+rgba(125, 185, 232, 0) 100%)
 }
